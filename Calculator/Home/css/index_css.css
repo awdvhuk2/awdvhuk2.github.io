@@ -1,3 +1,7 @@
+html,body {
+    height: 100%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -5,6 +9,15 @@ body {
     background-size: 100%;
     position: relative;
     text-align: center;
+}
+
+.back {
+    color: rgb(187, 0, 0);
+    font-size: 25px;
+}
+
+.back:hover {
+    text-decoration: underline;
 }
 
 header {
@@ -15,6 +28,7 @@ header {
     color: rgb(187, 0, 0);
     text-align: center;
     user-select: none;
+    line-height: 45px;
 }
 
 .links {
