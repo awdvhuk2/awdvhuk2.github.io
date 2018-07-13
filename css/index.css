@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(https://kakoiremont.ru/wp-content/uploads/2017/01/677_big.jpg) no-repeat;
+    background-size: 100%;height: 100%;
+}
+
+body {
+    font: 40px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    max-width: 500px;
+    min-width: 50px;
+    position: relative;
+    text-align: center;
+    margin: 222px auto 0 auto;
+    line-height: 150px;
+}
+
+a {
+    color: rgb(54, 158, 63);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(97, 190, 105);
+    text-decoration: underline;
+}

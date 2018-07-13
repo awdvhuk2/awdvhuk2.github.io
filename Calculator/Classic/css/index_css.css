@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    height: 100%;
+    background: url(https://avatanplus.com/files/resources/original/5899ec67a6fbf15a19437504.jpg) no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.header {
+    margin-top: 30px;
+    cursor: default;
+    color: white;
+    text-align: center;
+    user-select: none;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h1 p {
+    margin: 0px;
+    font-size: 10px;
+    color: rgb(199, 199, 199);
+}
+
+p output {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    line-height: 22px;
+    width: 15px;
+    height: 15px;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(199, 199, 199);
+    background: rgba(96, 112, 255, 0);
+}
+
+header button {
+    display: inline-block;
+    margin: 0px 0px 30px 0px;
+    font-size: 10px;
+    height: 17px;
+    width: 25px;
+    color: rgb(71, 71, 71);
+    background: rgb(199, 199, 199);
+    border: 1px solid rgb(223, 223, 223);
+    box-shadow: none;
+}
+
+header button:active {
+    color: rgb(71, 71, 71);
+    background: rgb(136, 136, 136);
+    border: 1px solid rgb(168, 168, 168);
+    box-shadow: none;
+}
+
+.top {
+    display: flex;
+}
+
+.calculator {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+.calculator output {
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 240px;
+    height: 38px;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    color: black;
+    background: rgba(96, 112, 255, 0.801);
+    border: 1px solid rgba(95, 111, 255, 0.801);
+    box-shadow: 3px 3px 4px rgba(106, 121, 252, 0.801);
+}
+
+.calculator-body {
+    display: flex;
+    justify-content: center;
+}
+
+.numbers {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    font-weight: bold;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: 0px;
+    user-select: none;
+    color: black;
+    background: rgba(122, 201, 238, 0.801);
+    border: 1px solid rgba(128, 205, 241, 0.801);
+    box-shadow: 3px 3px 4px rgba(180, 231, 255, 0.658);
+}
+
+button:active {
+    color: black;
+    background: rgba(91, 165, 199, 0.801);
+    box-shadow: 3px 3px 4px rgba(144, 184, 202, 0.658);
+    border: 1px solid rgba(104, 165, 194, 0.801);
+}
+
+.numbers .number-0 {
+    width: 90px;
+}
+
+.backspace {
+    display: inline-block;
+}
+
+.x {
+    font-size: 23px;
+}
+
+.operations .equality {
+    width: 90px;
+}
+
+.operations {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operations button {
+    color: white;
+    background: rgba(70, 24, 64, 0.801);
+    border-color: rgba(88, 31, 81, 0.801);
+    box-shadow: 3px 3px 4px rgba(109, 38, 101, 0.801);
+}
+
+.operations button:active {
+    color: white;
+    background: rgba(58, 20, 53, 0.801);
+    border-color: rgba(68, 24, 63, 0.801);
+    box-shadow: 3px 3px 4px rgba(90, 31, 83, 0.801);
+}
+
+.operations .clear {
+    color: white;
+    background: rgba(180, 22, 75, 0.801);
+    border-color: rgba(199, 22, 81, 0.801);
+    box-shadow: 3px 3px 4px rgba(221, 30, 93, 0.801);
+}
+
+.operations .clear:active {
+    background: rgba(150, 16, 61, 0.801);
+    border-color: rgba(168, 19, 69, 0.801);
+    box-shadow: 3px 3px 4px rgba(190, 26, 81, 0.801);
+}
+
+footer {
+    display: inline-block;
+    width: 621px;
+    color: white;
+    font-size: 25px;
+    cursor: default;
+    margin-top: 55px;
+    text-align: center;
+    user-select: none;
+}
+
+.header a,
+.footer a {
+    color: white;
+}
